@@ -164,3 +164,31 @@ def GetUsername(email_address):
     return None
   return match.group(1)
 ```
+
+To add type annotations to this code, we first run `pytype` on the file. `pytype` saves the inferred type information into a `.pyi` file. Then, we can run `merge-pyi` to merge the type annotations back into the code:
+
+```shell
+% pytype email.py
+% merge-pyi -i email.py pytype_output/email.pyi
+```
+
+And voilà!
+
+```python
+import re
+from typing import Match
+from typing import Optional
+
+def GetEmailMatch(email) -> Optional[Match[str]]:
+  return re.match(r'([^@]+)@example\.com', email)
+
+def GetUsername(email_address) -> Optional[str]:
+  match = GetEmailMatch(email_address)
+  if match is None:
+    return None
+  return match.group(1)
+```
+
+### Links :
+[Pytype on GitHub](https://medium.freecodecamp.org/how-to-quickly-find-type-issues-in-your-python-code-with-pytype-c022782f61c3)  
+[How to quickly find type-issues in your Python code with Pytype](https://medium.freecodecamp.org/how-to-quickly-find-type-issues-in-your-python-code-with-pytype-c022782f61c3)
