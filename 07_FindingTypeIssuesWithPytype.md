@@ -147,3 +147,20 @@ def GetEmailMatch(email) -> Optional[Match]:
 ```
 
 `Optional` means that the return value can be a `Match` object or `None`.
+
+## Example #3: Merging back inferred type information
+
+To help you adopt type annotations, Pytype can add them into the code for you. Let’s look at this code snippet:
+
+```python
+import re
+  
+def GetEmailMatch(email):
+  return re.match(r'([^@]+)@example\.com', email)
+
+def GetUsername(email_address):
+  match = GetEmailMatch(email_address)
+  if match is None:
+    return None
+  return match.group(1)
+```
