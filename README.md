@@ -8,8 +8,13 @@ Python Learnings and code snippets
 pip --no-cache-dir install scipy
 ```
 
+#### [How to add a directory to the PATH?](https://askubuntu.com/questions/60218/how-to-add-a-directory-to-the-path)
+```shell
+export PATH="/path/to/dir:$PATH"
+```
 
-### [Selenium with Firefox]()
+
+### [Selenium with Firefox](https://askubuntu.com/questions/851401/where-to-find-geckodriver-needed-by-selenium-python-package)
 The testing machine should have selenium V. 3.0.2, firefox V. 51.0.1 (Latest version) and geckodriver v. 0.14. If you are using linux please do the following steps:
 ```bash
 apt-get update
