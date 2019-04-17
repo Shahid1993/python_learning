@@ -1,14 +1,14 @@
 # python_learning
 Python Learnings and code snippets
 
-### [PEP 8 -- Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/)
+#### [PEP 8 -- Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/)
 
-### [Package installation using pip without using cache](https://stackoverflow.com/questions/9510474/removing-pips-cache)
+#### [Package installation using pip without using cache](https://stackoverflow.com/questions/9510474/removing-pips-cache)
 ```shell
 pip --no-cache-dir install scipy
 ```
 
-### [Upgrading Selenium version](https://stackoverflow.com/questions/43723061/selenium-is-giving-keyerror-sessionid)
+#### [Upgrading Selenium version](https://stackoverflow.com/questions/43723061/selenium-is-giving-keyerror-sessionid)
 ```shell
 pip install -U selenium
 ```
@@ -19,7 +19,7 @@ export PATH="/path/to/dir:$PATH"
 ```
 
 
-### [Selenium with Firefox](https://askubuntu.com/questions/851401/where-to-find-geckodriver-needed-by-selenium-python-package)
+#### [Selenium with Firefox](https://askubuntu.com/questions/851401/where-to-find-geckodriver-needed-by-selenium-python-package)
 The testing machine should have selenium V. 3.0.2, firefox V. 51.0.1 (Latest version) and geckodriver v. 0.24. If you are using linux please do the following steps:
 ```bash
 apt-get update
@@ -38,6 +38,6 @@ print driver.title
 driver.quit()
 ```
 
-### [Mozilla geckodriver](https://github.com/mozilla/geckodriver/releases/tag/v0.24.0)
+#### [Mozilla geckodriver](https://github.com/mozilla/geckodriver/releases/tag/v0.24.0)
 
-### [Selenium with Python ::: Documentation](https://selenium-python.readthedocs.io/index.html)
+#### [Selenium with Python ::: Documentation](https://selenium-python.readthedocs.io/index.html)
