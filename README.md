@@ -39,3 +39,5 @@ driver.quit()
 ```
 
 ### [Mozilla geckodriver](https://github.com/mozilla/geckodriver/releases/tag/v0.24.0)
+
+### [Selenium with Python ::: Documentation](https://selenium-python.readthedocs.io/index.html)
