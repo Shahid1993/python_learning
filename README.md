@@ -8,6 +8,11 @@ Python Learnings and code snippets
 pip --no-cache-dir install scipy
 ```
 
+### [Upgrading Selenium version](https://stackoverflow.com/questions/43723061/selenium-is-giving-keyerror-sessionid)
+```shell
+pip install -U selenium
+```
+
 #### [How to add a directory to the PATH?](https://askubuntu.com/questions/60218/how-to-add-a-directory-to-the-path)
 ```shell
 export PATH="/path/to/dir:$PATH"
@@ -20,7 +25,7 @@ The testing machine should have selenium V. 3.0.2, firefox V. 51.0.1 (Latest ver
 apt-get update
 apt-get install firefox
 pip3 install selenium==3.0.2
-wget https://github.com/mozilla/geckodriver/releases/download/v0.24.0/geckodriver-v0.24.0-linux32.tar.gz -O /tmp/geckodriver.tar.gz && tar -C /opt -xzf /tmp/geckodriver.tar.gz && chmod 755 /opt/geckodriver && ln -fs /opt/geckodriver /usr/bin/geckodriver && ln -fs /opt/geckodriver /usr/local/bin/geckodriver
+wget https://github.com/mozilla/geckodriver/releases/download/v0.24.0/geckodriver-v0.24.0-linux32.tar.gz -O /tmp/geckodriver.tar.gz && tar -C /opt -xzf /tmp/geckodriver.tar.gz && chmod 755 /opt/geckodriver && ln -fs /opt/geckodriver /home/codemantra/Programs/geckodriver && ln -fs /opt/geckodriver /home/codemantra/Programs/geckodriver
 ```
 To make sure that every thing is going well, check versions for all of them and make sure that its matching.
 
@@ -32,3 +37,5 @@ driver.get('http://google.com')
 print driver.title
 driver.quit()
 ```
+
+### [Mozilla geckodriver](https://github.com/mozilla/geckodriver/releases/tag/v0.24.0)
