@@ -1,6 +1,9 @@
 # python_learning
 Python Learnings and code snippets
 
+### What is Selenium?
+  >Selenium is the Python library we use for web automation. Selenium has developed an API so third-party authors can develop webdrivers to the communication to browsers.
+
 #### [PEP 8 -- Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/)
 
 #### [Package installation using pip without using cache](https://stackoverflow.com/questions/9510474/removing-pips-cache)
@@ -38,6 +41,10 @@ print driver.title
 driver.quit()
 ```
 
-#### [Mozilla geckodriver](https://github.com/mozilla/geckodriver/releases/tag/v0.24.0)
+#### [Mozilla geckodriver](https://github.com/mozilla/geckodriver/releases/tag/v0.24.0)>
 
 #### [Selenium with Python ::: Documentation](https://selenium-python.readthedocs.io/index.html)
+
+
+# Resources :
+* [How I used Python to analyze Game of Thrones](https://medium.freecodecamp.org/how-i-used-python-to-analyze-game-of-thrones-503a96028ce6)
