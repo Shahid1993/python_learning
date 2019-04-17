@@ -2,7 +2,10 @@
 Python Learnings and code snippets
 
 ### What is Selenium?
-  >Selenium is the Python library we use for web automation. Selenium has developed an API so third-party authors can develop webdrivers to the communication to browsers.
+  > Selenium is the Python library we use for web automation. Selenium has developed an API so third-party authors can develop webdrivers to the communication to browsers.
+
+### Web Scraping :
+  > web scraping allows you to automatically grab web content through Python.
 
 #### [PEP 8 -- Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/)
 
