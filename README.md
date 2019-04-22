@@ -48,6 +48,15 @@ driver.quit()
 
 #### [Selenium with Python ::: Documentation](https://selenium-python.readthedocs.io/index.html)
 
+#### [Replacing empty csv column values with a zero](https://stackoverflow.com/questions/2862709/replacing-empty-csv-column-values-with-a-zero)
+```python
+for row in reader:
+    for i, x in enumerate(row):
+                if len(x)< 1:
+                         x = row[i] = 0
+                print x
+```
+
 
 # Resources :
 * [How I used Python to analyze Game of Thrones](https://medium.freecodecamp.org/how-i-used-python-to-analyze-game-of-thrones-503a96028ce6)
