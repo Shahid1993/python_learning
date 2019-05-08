@@ -59,7 +59,7 @@ for row in reader:
 #### [Logging with 'loguru'](https://github.com/Delgan/loguru) : 
 This is a really awesome package I regularly use in my projects. It describes itself as “a library which aims to bring enjoyable logging in Python”. This package just lets you easily configure your logs out of the box.
 
-#### [more-itertools](https://github.com/erikrose/more-itertools) : More routines for operating on iterables, beyond itertools 
+#### [more-itertools](https://github.com/erikrose/more-itertools) : More routines for operating on iterables, beyond itertools - [API Reference](https://more-itertools.readthedocs.io/en/stable/api.html#more_itertools.seekable)
 
 
 # Resources :
