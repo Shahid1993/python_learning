@@ -70,11 +70,14 @@ A system for Python that generates static type annotations by collecting runtime
 - [requests-async](https://github.com/encode/requests-async) : Brings support for async/await syntax to Python's fabulous requests library.
 - [HTTPie](https://github.com/jakubroztocil/httpie) :  Modern command line cURL  
   As easy as httpie /aitch-tee-tee-pie/ 🥧 Modern command line HTTP client – user-friendly curl alternative with intuitive UI, JSON support, syntax highlighting, wget-like downloads, extensions, etc. https://twitter.com/clihttp https://httpie.org
-- [pipenv ](https://github.com/pypa/pipenv)( Better packaging for Python) : Python Development Workflow for Humans. https://docs.pipenv.org/
+- [pipenv ](https://github.com/pypa/pipenv) :  Better packaging for Python. Python Development Workflow for Humans. https://docs.pipenv.org/
+- [mypy](https://github.com/python/mypy) : Static type checker
+- [black](https://github.com/python/black) : The uncompromising Python code formatter https://black.readthedocs.io/en/stable/  Try it out now using the [Black Playground](https://black.now.sh).
+- [flask](https://github.com/pallets/flask) : The Python micro framework for building web applications. https://www.palletsprojects.com/p/flask/
 
 # Resources :
 - [How I used Python to analyze Game of Thrones](https://medium.freecodecamp.org/how-i-used-python-to-analyze-game-of-thrones-503a96028ce6)
 - [Monitor folder and run command if there is a file there?](https://askubuntu.com/questions/893019/monitor-folder-and-run-command-if-there-is-a-file-there) 
 - [10 External Python packages you are going to love](https://medium.freecodecamp.org/these-python-packages-will-help-accelerate-your-development-process-d4b3f170b1ea)
--
+- [The Flask Mega-Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world/page/6)
 
