@@ -56,11 +56,17 @@ for row in reader:
                          x = row[i] = 0
                 print x
 ```
-#### [Logging with 'loguru'](https://github.com/Delgan/loguru) : 
+
+### Important Python Packages :
+- [Logging with 'loguru'](https://github.com/Delgan/loguru) : 
 This is a really awesome package I regularly use in my projects. It describes itself as “a library which aims to bring enjoyable logging in Python”. This package just lets you easily configure your logs out of the box.
 
-#### [more-itertools](https://github.com/erikrose/more-itertools) : More routines for operating on iterables, beyond itertools - [API Reference](https://more-itertools.readthedocs.io/en/stable/api.html#more_itertools.seekable)
+- [more-itertools](https://github.com/erikrose/more-itertools) : More routines for operating on iterables, beyond itertools - [API Reference](https://more-itertools.readthedocs.io/en/stable/api.html#more_itertools.seekable)
 
+- [MonkeyType — Static type annotations generator](https://github.com/Instagram/MonkeyType)
+A system for Python that generates static type annotations by collecting runtime types 
+
+- [Pyright — Static type checker](https://github.com/microsoft/pyright) : Static type checker for Python 
 
 # Resources :
 - [How I used Python to analyze Game of Thrones](https://medium.freecodecamp.org/how-i-used-python-to-analyze-game-of-thrones-503a96028ce6)
