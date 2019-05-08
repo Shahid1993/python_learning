@@ -67,6 +67,10 @@ This is a really awesome package I regularly use in my projects. It describes it
 A system for Python that generates static type annotations by collecting runtime types 
 
 - [Pyright — Static type checker](https://github.com/microsoft/pyright) : Static type checker for Python 
+- [requests-async](https://github.com/encode/requests-async) : Brings support for async/await syntax to Python's fabulous requests library.
+- [HTTPie](https://github.com/jakubroztocil/httpie) :  Modern command line cURL  
+  As easy as httpie /aitch-tee-tee-pie/ 🥧 Modern command line HTTP client – user-friendly curl alternative with intuitive UI, JSON support, syntax highlighting, wget-like downloads, extensions, etc. https://twitter.com/clihttp https://httpie.org
+- [pipenv ](https://github.com/pypa/pipenv)( Better packaging for Python) : Python Development Workflow for Humans. https://docs.pipenv.org/
 
 # Resources :
 - [How I used Python to analyze Game of Thrones](https://medium.freecodecamp.org/how-i-used-python-to-analyze-game-of-thrones-503a96028ce6)
