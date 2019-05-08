@@ -56,7 +56,8 @@ for row in reader:
                          x = row[i] = 0
                 print x
 ```
-
+#### [Logging with 'loguru'](https://github.com/Delgan/loguru) : 
+This is a really awesome package I regularly use in my projects. It describes itself as “a library which aims to bring enjoyable logging in Python”. This package just lets you easily configure your logs out of the box.
 
 # Resources :
 * [How I used Python to analyze Game of Thrones](https://medium.freecodecamp.org/how-i-used-python-to-analyze-game-of-thrones-503a96028ce6)
