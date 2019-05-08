@@ -60,7 +60,7 @@ for row in reader:
 This is a really awesome package I regularly use in my projects. It describes itself as “a library which aims to bring enjoyable logging in Python”. This package just lets you easily configure your logs out of the box.
 
 # Resources :
-* [How I used Python to analyze Game of Thrones](https://medium.freecodecamp.org/how-i-used-python-to-analyze-game-of-thrones-503a96028ce6)
+- [How I used Python to analyze Game of Thrones](https://medium.freecodecamp.org/how-i-used-python-to-analyze-game-of-thrones-503a96028ce6)
 - [Monitor folder and run command if there is a file there?](https://askubuntu.com/questions/893019/monitor-folder-and-run-command-if-there-is-a-file-there) 
 - [10 External Python packages you are going to love](https://medium.freecodecamp.org/these-python-packages-will-help-accelerate-your-development-process-d4b3f170b1ea)
 -
