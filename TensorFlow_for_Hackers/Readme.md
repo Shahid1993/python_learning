@@ -45,3 +45,11 @@ with tf.Session() as sess:
     - [Getting to Know TensorFlow](https://hackernoon.com/machine-learning-with-tensorflow-8873fdee2b68#.ehj5202b0)
     - [Learning TensorFlow Basics](http://learningtensorflow.com/lesson2/)
     - [Deep Learning with TensorFlow](https://bigdatauniversity.com/courses/deep-learning-tensorflow/)
+
+- **Building Sample Neural Network**
+    - [Visual Information Theory](https://colah.github.io/posts/2015-09-Visual-Information/)
+    - [MNIST classification using TensorFlow](https://github.com/aymericdamien/TensorFlow-Examples/blob/master/notebooks/3_NeuralNetworks/multilayer_perceptron.ipynb) — Use Deep Neural Network to classify handwritten digits
+    - [How to choose the number of hidden layers and neurons in NN?](https://stats.stackexchange.com/questions/181/how-to-choose-the-number-of-hidden-layers-and-nodes-in-a-feedforward-neural-netw/1097#1097)
+    - [How to handle ordinal data in NN models](https://arxiv.org/abs/0704.1028) — Lots of the variables are ordinal. This paper presents an approach to handling that kind of data in NN models
+    - [Simpler way to handle ordinal data in NN models](https://stackoverflow.com/questions/38375401/neural-network-ordinal-classification-for-age)
+    - [student-alcohol-consumption-prediction](https://github.com/amanchoudhary/student-alcohol-consumption-prediction)
