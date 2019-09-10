@@ -53,3 +53,9 @@ with tf.Session() as sess:
     - [How to handle ordinal data in NN models](https://arxiv.org/abs/0704.1028) — Lots of the variables are ordinal. This paper presents an approach to handling that kind of data in NN models
     - [Simpler way to handle ordinal data in NN models](https://stackoverflow.com/questions/38375401/neural-network-ordinal-classification-for-age)
     - [student-alcohol-consumption-prediction](https://github.com/amanchoudhary/student-alcohol-consumption-prediction)
+
+- **[Building a Cat Detector using Convolutional Neural Networks](https://medium.com/@curiousily/tensorflow-for-hackers-part-iii-convolutional-neural-networks-c077618e590b)**
+    - [An Intuitive Explanation of Convolutional Neural Networks](https://ujjwalkarn.me/2016/08/11/intuitive-explanation-convnets/)
+    - [CS231n — Convolutional Neural Networks (CNNs / ConvNets)](https://cs231n.github.io/convolutional-networks/)
+    - [Cats and dogs and convolutional neural networks](http://www.subsubroutine.com/sub-subroutine/2016/9/30/cats-and-dogs-and-convolutional-neural-networks)
+    - [Gradient-based learning applied to document recognition](http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf)
