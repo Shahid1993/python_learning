@@ -41,12 +41,12 @@ with tf.Session() as sess:
 
 ## References :
 
-- **Basics**
+- **[Basics](https://medium.com/@curiousily/tensorflow-for-hackers-part-i-basics-2c46bc99c930)**
     - [Getting to Know TensorFlow](https://hackernoon.com/machine-learning-with-tensorflow-8873fdee2b68#.ehj5202b0)
     - [Learning TensorFlow Basics](http://learningtensorflow.com/lesson2/)
     - [Deep Learning with TensorFlow](https://bigdatauniversity.com/courses/deep-learning-tensorflow/)
 
-- **Building Sample Neural Network**
+- **[Building Sample Neural Network](https://medium.com/@curiousily/tensorflow-for-hackers-part-ii-building-simple-neural-network-2d6779d2f91b)**
     - [Visual Information Theory](https://colah.github.io/posts/2015-09-Visual-Information/)
     - [MNIST classification using TensorFlow](https://github.com/aymericdamien/TensorFlow-Examples/blob/master/notebooks/3_NeuralNetworks/multilayer_perceptron.ipynb) — Use Deep Neural Network to classify handwritten digits
     - [How to choose the number of hidden layers and neurons in NN?](https://stats.stackexchange.com/questions/181/how-to-choose-the-number-of-hidden-layers-and-nodes-in-a-feedforward-neural-netw/1097#1097)
