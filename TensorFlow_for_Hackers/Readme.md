@@ -59,3 +59,9 @@ with tf.Session() as sess:
     - [CS231n — Convolutional Neural Networks (CNNs / ConvNets)](https://cs231n.github.io/convolutional-networks/)
     - [Cats and dogs and convolutional neural networks](http://www.subsubroutine.com/sub-subroutine/2016/9/30/cats-and-dogs-and-convolutional-neural-networks)
     - [Gradient-based learning applied to document recognition](http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf)
+
+- **[Creating a Neural Network from Scratch](https://medium.com/@curiousily/tensorflow-for-hackers-part-iv-neural-network-from-scratch-1a4f504dfa8)**
+    - [Biases in NNs?](https://stackoverflow.com/questions/2480650/role-of-bias-in-neural-networks)
+    - [L1 and L2 Regularization](http://www.chioka.in/differences-between-l1-and-l2-as-loss-function-and-regularization/)
+    - [Learn how to do backprop from the pros](http://yann.lecun.com/exdb/publis/pdf/lecun-98b.pdf)
+    - [Backpropagation, Intuitions](https://cs231n.github.io/optimization-2/)
